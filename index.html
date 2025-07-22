@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskPro - Smart Task Management</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">TaskPro</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact" class="cta-btn">Get Started</a></li>
+        </ul>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content animate-in">
+          <h1>Organize Your Work. Simplify Your Life.</h1>
+          <p>
+            TaskPro helps individuals and teams plan, track, and manage tasks
+            effectively with intuitive tools designed for productivity.
+          </p>
+          <div class="hero-buttons">
+            <a href="#pricing" class="btn-primary">Start Free Trial</a>
+            <a href="#features" class="btn-secondary">See It In Action</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+    
+    <!-- Features Section -->
+    <section id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Features That Keep You Ahead</h2>
+          <p>
+            Streamline workflows, track progress, and collaborate better with
+            tools that empower your team to succeed.
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Instant Task Updates</h3>
+            <p>
+              Keep everyone on the same page with real-time updates and seamless
+              synchronization across devices.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Team Collaboration Made Easy</h3>
+            <p>
+              Assign tasks, set deadlines, and chat with your team without
+              leaving the app.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Secure Data Storage</h3>
+            <p>
+              Your information is safe with enterprise-level encryption and
+              daily backups.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>Flexible Pricing for Everyone</h2>
+          <p>
+            Whether you're a solo user or a large organization, TaskPro has a
+            plan for you.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Basic</h3>
+            <div class="price">$10<span>/month</span></div>
+            <ul class="pricing-features">
+              <li>Single user access</li>
+              <li>5GB storage</li>
+              <li>Email support</li>
+              <li>Mobile & Web access</li>
+            </ul>
+            <a href="#" class="pricing-btn">Start Free Trial</a>
+          </div>
+          <div class="pricing-card featured">
+            <h3>Team</h3>
+            <div class="price">$25<span>/month</span></div>
+            <ul class="pricing-features">
+              <li>Up to 10 users</li>
+              <li>50GB shared storage</li>
+              <li>Priority email support</li>
+              <li>Advanced collaboration tools</li>
+            </ul>
+            <a href="#" class="pricing-btn">Start Free Trial</a>
+          </div>
+          <div class="pricing-card">
+            <h3>Business</h3>
+            <div class="price">$75<span>/month</span></div>
+            <ul class="pricing-features">
+              <li>Unlimited users</li>
+              <li>500GB storage</li>
+              <li>Dedicated account manager</li>
+              <li>24/7 support</li>
+              <li>Custom integrations</li>
+            </ul>
+            <a href="#" class="pricing-btn">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Users Are Saying</h2>
+          <p>
+            Discover why thousands of users trust TaskPro to stay organized and
+            achieve their goals.
+          </p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial">
+            <p class="testimonial-text">
+              TaskPro keeps my team organized and efficient. Since switching, we
+              deliver projects faster and with more clarity. It's a game changer!
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AL</div>
+              <div class="author-info">
+                <h4>Amanda Lee</h4>
+                <p>Project Manager, InnovateTech</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial-text">
+              The simplicity and power of TaskPro make it the perfect solution
+              for managing my daily tasks. I can't imagine working without it.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">JS</div>
+              <div class="author-info">
+                <h4>James Smith</h4>
+                <p>Freelancer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>TaskPro</h4>
+            <p>
+              Helping you stay organized, productive, and stress-free with
+              intelligent task management tools.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Product</h4>
+            <p><a href="#">Features</a></p>
+            <p><a href="#">Pricing</a></p>
+            <p><a href="#">Integrations</a></p>
+            <p><a href="#">API</a></p>
+          </div>
+          <div class="footer-section">
+            <h4>Company</h4>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Careers</a></p>
+            <p><a href="#">Press</a></p>
+            <p><a href="#">Contact</a></p>
+          </div>
+          <div class="footer-section">
+            <h4>Support</h4>
+            <p><a href="#">Help Center</a></p>
+            <p><a href="#">Documentation</a></p>
+            <p><a href="#">Status</a></p>
+            <p>support@taskpro.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 TaskPro. All rights reserved. | Privacy Policy | Terms
+            of Service
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script>
+      // Mobile menu toggle
+      function toggleMobileMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+      }
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Header scroll effect
+      window.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+        if (window.scrollY > 100) {
+          header.style.background = "rgba(255, 255, 255, 0.98)";
+          header.style.boxShadow = "0 2px 20px rgba(0, 0, 0, 0.1)";
+        } else {
+          header.style.background = "rgba(255, 255, 255, 0.95)";
+          header.style.boxShadow = "none";
+        }
+      });
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate-in");
+          }
+        });
+      }, observerOptions);
+
+      document
+        .querySelectorAll(".feature-card, .pricing-card, .testimonial")
+        .forEach((el) => {
+          observer.observe(el);
+        });
+    </script>
+  </body>
+</html>
